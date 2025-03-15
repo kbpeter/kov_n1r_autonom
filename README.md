@@ -10,7 +10,7 @@ Ez a ROS 2 csomag egy egyszerű **hőmérséklet-, páratartalom- és nyomásér
 Ez a projekt hasonlít egy korábbi minta beadandóhoz ([példa](https://github.com/gfigneczi1/ign_b7e_temp_sens)), amely szintén egy szenzor-rendszert implementál. A legfontosabb eltérések:
 - **További szenzoradatok**: Az eredeti beadandó csak hőmérsékletet és páratartalmat figyelt, míg ebben a verzióban a **légnyomás** is szerepel.
 - **Fejlettebb adatmegjelenítés**: Egy külön `adat_megjelenito` node készült, amely **ikonokkal és jól formázott kiírással** jeleníti meg az adatokat.
-- **Jobb riasztáskezelés**: A riasztások figyelmeztető **emoji-kkal és egységesített formátummal** jelennek meg, így könnyebben értelmezhetők.
+- **Jobb riasztáskezelés**: A riasztások figyelmeztető **ikonokkal és egységesített formátummal** jelennek meg, így könnyebben értelmezhetők.
 
 ## 📦 Telepítés és Fordítás
 
@@ -103,6 +103,3 @@ Az alábbi képek bemutatják a rendszer működését:
 - **Licenc:** Apache 2.0
 
 ---
-
-## **✅ Összegzés**
-Ez a beadandó projekt **teljes ROS 2 szenzor-rendszert** implementál, amely valós időben figyeli a környezeti adatokat és szükség esetén riasztásokat küld.
