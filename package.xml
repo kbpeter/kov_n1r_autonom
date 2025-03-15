@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>szenzor_rendszer</name>
+  <version>0.0.1</version>
+  <description>Hőmérséklet és páratartalom érzékelő ROS 2 csomag</description>
+  <maintainer email="p.boldi.kovacs@gmail.com">Kovács Boldizsár Péter</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
