@@ -101,5 +101,3 @@ Az alábbi képek bemutatják a rendszer működését:
 - **KNeptun kód:** N1RG50
 - **Email:** p.boldi.kovacs@gmail.com
 - **Licenc:** Apache 2.0
-
----
