@@ -6,13 +6,16 @@ def generate_launch_description():
         Node(
             package='szenzor_rendszer',
             executable='szenzor_node',
-            name='szenzor_node',
             output='screen'
         ),
         Node(
             package='szenzor_rendszer',
             executable='figyelo_node',
-            name='figyelo_node',
+            output='screen'
+        ),
+        Node(
+            package='szenzor_rendszer',
+            executable='adat_megjelenito',
             output='screen'
         )
     ])
